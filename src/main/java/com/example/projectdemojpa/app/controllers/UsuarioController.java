@@ -25,6 +25,7 @@ public class UsuarioController {
 	
 	@GetMapping("/test")
 	public void prueba() {
+		System.out.println("Mensaje de prueba");
 		System.out.println(clienteService.findAll());
 	}
 
